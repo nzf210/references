@@ -47,6 +47,7 @@ type WatchAssetParams = {
 type InjectedProviderFlags = {
   isApexWallet?: true
   isAvalanche?: true
+  isBackpack?: true
   isBifrost?: true
   isBitKeep?: true
   isBitski?: true
@@ -72,6 +73,8 @@ type InjectedProviderFlags = {
   isTrustWallet?: true
   isHyperPay?: true
   isXDEFI?: true
+  isOkxWallet?: true
+  isOKExWallet?: true
 }
 
 type InjectedProviders = InjectedProviderFlags & {
